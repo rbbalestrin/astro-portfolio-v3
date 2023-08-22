@@ -42,7 +42,19 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         <SocialLinks />
       </div>
     </article>
-
+    <section aria-label="Renan's life" class="flex flex-col gap-8">
+      <h3 class="text-lg text-neutral-100">Biography</h3>
+      <ul class="flex flex-col gap-4">
+          <li><b class="font-normal text-yellow-500">2004 -</b> Born in Erechim, Brazil.</li>
+          <li><b class="font-normal text-yellow-500">2019 - 2022 -</b> Volunteering at Cavalo Vendado, Erechim</li>
+          <li>
+              <b class="font-normal text-yellow-500">2023 -</b> Started the Bachelor's Program at the Regional Integrated University
+              of Alto Uruguai and Missions (URI Erechim).
+          </li>
+          <li><b class="font-normal text-yellow-500">2023 to present -</b> Seeking internship</li>
+      </ul>
+  </section>
+  
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">Latest posts</h3>

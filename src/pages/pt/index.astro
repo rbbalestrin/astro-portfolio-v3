@@ -45,7 +45,18 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
                 <SocialLinks />
             </div>
         </article>
-
+        <section aria-label="Renan's life" class="flex flex-col gap-8">
+            <h3 class="text-lg text-neutral-100">Biografia</h3>
+            <ul class="flex flex-col gap-4">
+                <li><b class="font-normal text-yellow-500">2004 -</b> Nascido em Erechim, Brasil.</li>
+                <li><b class="font-normal text-yellow-500">2019 - 2022 -</b> Trabalho voluntário em Cavalo Vendado, Erechim</li>
+                <li>
+                    <b class="font-normal text-yellow-500">2023 -</b> Iniciou o Programa de Bacharelado na Universidade Regional Integrada do Alto Uruguai
+                    e das Missões (URI Erechim)
+                </li>
+                <li><b class="font-normal text-yellow-500">2023 até o presente -</b> Procurando estágio</li>
+            </ul>
+        </section>
         <article class="flex flex-col gap-8">
             <header class="flex w-full flex-row justify-between gap-2">
                 <h3 class="text-lg text-neutral-100">Ultimos Posts</h3>

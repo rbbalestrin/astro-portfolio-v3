@@ -13,10 +13,9 @@ type Apresentacao = {
 
 const presentation: Apresentacao = {
   mail: "renanbbez@gmail.com",
-  title: "Olá, sou um desenvolvedor indie sediado no Brasil!👋",
+  title: "Olá, sou um desenvolvedor indie sediado no Brasil!",
   // perfil: "/perfil.webp",
-  description:
-    "Renan Bez é um talentoso **desenvolvedor full-stack baseado no Brasil**. Com uma paixão por construir soluções digitais. Suas habilidades estão em compreender o desenvolvimento fullstack com tecnologias como **React, Svelte, Firebase e até mesmo Rust**. Renan Bez é uma força dinâmica no mundo da tecnologia, constantemente empurrando limites e criando soluções impactantes.",
+  description: "Olá, sou **Renan Bez**, também conhecido como **themir**. Tenho 19 anos e sou estudante de graduação em Ciência da Computação. Gosto de **ler livros** e **criar coisas**. Tenho interesse em **design de linguagens**, **desenvolvimento web** e praticamente vivo no terminal. Algumas das minhas tecnologias favoritas são **Rust**, **Svelte** e **Threejs**.",
   socials: [
     {
       label: "Linkedin",
@@ -25,6 +24,14 @@ const presentation: Apresentacao = {
     {
       label: "Github",
       link: "https://github.com/rbbalestrin",
+    },
+    {
+      label: "Instagram",
+      link: "https://instagram.com/rb.balestrin",
+    },
+    {
+      label: "Spotify",
+      link: "https://open.spotify.com/user/4ipol6ipx5csg6hanjp6tclpk?si=e682e94875194d9d",
     },
   ],
 };
